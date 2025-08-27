@@ -7,9 +7,8 @@ console.log(Q1);
 
 //Q2
 let names = ['JavaScript', 'PHP', 'Ruby', 'Python','Go'];
-let Q2 = '私の好きな言語は' + names[0] + 'です。' + '次は' + names[3] + 'を勉強してみたいです。';
+let Q2 = `私の好きな言語は${names[0]}です。次は${names[3]}を勉強してみたいです。`
 console.log(Q2);
-
 
 //Q3
 let user = {
@@ -17,9 +16,6 @@ let user = {
     age: 26,
     bloodType: 'A',
     favorite: 'card',
-    //  sayHello: function() {
-    //     console.log("");
-    //  },
 };
 console.log(user.age);
 
@@ -67,7 +63,7 @@ sayWorld();
 // Q7
 user.birthday = '2000-09-27';
 user.sayHello = function(){
-    console.log('Hello！')
+  console.log('Hello！')
 }
 user.sayHello();
 
@@ -75,18 +71,18 @@ user.sayHello();
 //Q8
 let calc = {};
 
-    calc.add = function(x , y) {
-        console.log(x + y);
-      }
-    calc.subtract = function(x , y) {
-        console.log(x - y);
-      }
-    calc.multiply = function(x , y) {
-        console.log(x * y);
-      }
-    calc.divide = function(x , y) {
-        console.log(x / y);
-      }
+  calc.add = function(x , y) {
+    console.log(x + y);
+  }
+  calc.subtract = function(x , y) {
+    console.log(x - y);
+  }
+  calc.multiply = function(x , y) {
+    console.log(x * y);
+  }
+  calc.divide = function(x , y) {
+    console.log(x / y);
+  }
 
 calc.add(3,4);
 calc.subtract(15,5)
@@ -103,16 +99,15 @@ function remainder(x, y) {
   console.log("5 を 3 で割った余りは " + result + " です。");
 
 
-  //Q10
-  //関数fooの中で変数Xを定義しているが関数内だけスコープが有効なので関数の外で使おうとしてもエラーが出る
-  
+//Q10
+//関数fooの中で変数Xを定義しているが関数内だけスコープが有効なので関数の外で使おうとしてもエラーが出る
 
 
-  //応用
 
-  //Q1
-  var random = Math.random() * 10;
+//応用
 
+//Q1
+var random = Math.floor(Math.random()* 10);
 console.log( random );
 
 
@@ -131,7 +126,7 @@ if (num > 0);
 if (num < 0);
   console.log('num is less than 0');
 
-if (num == 0);
+if (num === 0);
   console.log('num is 0');
 
 
