@@ -22,22 +22,22 @@ console.log(user.age);
 
 //Q4
 let playerList = [
-    {
-      name: 'John',
-      age: 26,
-      favorites: ['Card Game', 'Basket Ball', 'Programming'],
-    },
-    {
-      name: 'Bob',
-      age: 33,
-      favorites: ['Tinder', 'The Legend of Zelda'],
-    },
-    {
-      name: 'Michael',
-      age: 22,
-      favorites: ['Football', 'Smash Bros.'],
-    },
-  ];
+  {
+  name: 'John',
+  age: 26,
+  favorites: ['Card Game', 'Basket Ball', 'Programming'],
+  },
+  {
+  name: 'Bob',
+  age: 33,
+  favorites: ['Tinder', 'The Legend of Zelda'],
+  },
+  {
+  name: 'Michael',
+  age: 22,
+  favorites: ['Football', 'Smash Bros.'],
+  },
+];
 console.log(playerList[1].favorites[1]);
 
 
@@ -47,7 +47,6 @@ console.log(average)
 
 
 //Q6
-// teigi
 function sayHello() {
     console.log('Hello')
 }
@@ -92,11 +91,11 @@ calc.divide(25,5)
 
 //Q9
 function remainder(x, y) {
-    return (x % y);
-  }
+  return (x % y);
+}
   
-  let result = remainder(5, 3);
-  console.log("5 を 3 で割った余りは " + result + " です。");
+let result = remainder(5, 3);
+console.log("5 を 3 で割った余りは " + result + " です。");
 
 
 //Q10
@@ -119,13 +118,10 @@ setTimeout (function() {
 
 //Q3
 let num = 5;
-
 if (num > 0);
   console.log('num is greater than 0');
-
 if (num < 0);
   console.log('num is less than 0');
-
 if (num === 0);
   console.log('num is 0');
 
